@@ -16,7 +16,7 @@ print(right_rotate(arr))
 
 
 #SOLUTION-2
-#right rotate optimal method
+#right rotate optimal method for multiple steps
 def reverse(arr, start, end):
     while start < end:
         arr[start], arr[end] = arr[end], arr[start]
